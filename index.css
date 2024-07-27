@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Aboreto", system-ui;
+}
+
+.main{
+    background-image: url('https://images.pexels.com/photos/2098428/pexels-photo-2098428.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-2098428.jpg&fm=jpg');
+    width: 100%;
+    height: 40vh;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.background1{
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 100%;
+    height: 40vh;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    margin-top: 30px;
+}
+
+.nav-items li{
+    display: inline-block;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.nav-items li:hover{
+    color: gold;
+}
+
+.nav-items{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 17px;
+}
+.hr{
+    width: 100%;
+    height: 5px;
+}
+#main1{
+    background-image: url('https://www.veeforu.com/wp-content/uploads/2022/10/vintage-background-aesthetic-1024x576.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#aboutus{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#aboutus img{
+    width: 80%;
+    height: 50vh;
+    margin-top: 50px;
+    margin-left: 40px;
+    
+    box-shadow: 1px 1px 20px gold;
+    border-radius: 20px;
+}
+.text p{
+    font-size: 13px;
+    padding: 35px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: rgba(255, 217, 0, 0.831);
+}
+.parag-bg{
+    margin-top: 20px;
+    background-image: url('https://st.depositphotos.com/1203257/1819/i/450/depositphotos_18197413-stock-photo-old-vintage-background.jpg');
+    width: 100%;
+    height: 80vh;
+    border-radius: 15%;
+}
+.parag-bg1{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.379);
+    width: 100%;
+    height: 80vh;
+    border-radius: 30%;
+}
+.about{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 22px;
+    
+    color: gold;
+    text-shadow: 1px 1px 10px;
+    font-weight: bolder;
+}
+
+#main2{
+    background-image: url('https://media.architecturaldigest.com/photos/6092fd9d80149f605e058afa/16:9/w_1920,c_limit/ZZs%20Sushi%20Bar%20Fulk_ZZ_041.jpg');
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: border;
+}
+.background2{
+    background-color: rgba(128, 0, 0, 0.295);
+    width: 100%;
+    height: 80vh;
+}
+.imgbtn .btn{
+    display: flex;
+    display: inline-block;
+    margin-top: 8%;
+    margin-left: 2.5%;
+    
+}
+.imgbtn .btn:hover{
+    box-shadow: 2px 2px 15px gold;
+}
+.btn h3{
+    
+    padding: 8px;
+    color: rgb(123, 0, 0);
+    background-color: rgb(255, 217, 0);
+}
+.imgbtn .btn1{
+    display: flex;
+    display: inline-block;
+    margin-top: 8%;
+    margin-left: 5%;
+    
+}
+.imgbtn .btn1:hover{
+    box-shadow: 2px 2px 15px gold;
+}
+.btn1 h3{
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(123, 0, 0);
+    background-color: rgb(255, 217, 0);
+}
+
+
+.imgbtn .btn2{
+    display: flex;
+    display: inline-block;
+    margin-top: 8%;
+    margin-left: 5%;
+   
+}
+.imgbtn .btn2:hover{
+    box-shadow: 2px 2px 15px gold;
+}
+.btn2 h3{
+    padding: 8px;
+    color: rgb(123, 0, 0);
+    background-color: rgb(255, 217, 0);
+}
+.img1{
+    width: 100%;
+    height: 30vh;
+    
+}
+.img2{
+    width: 100%;
+    height: 40vh;
+    
+}
+
+.main3{
+    background-image: url('https://images.wallpaperscraft.com/image/single/stains_black_red_129553_1280x720.jpg');
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.background3{
+    background-color: rgba(0, 0, 0, 0.201);
+    width: 100%;
+    height: 100vh;
+}
+
+#dining{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#dining h1{
+    font-size: 50px;
+    margin-top: 7%;
+    color: gold;
+    text-shadow: 1px 1px 10px;
+    font-weight: bolder;
+    
+}
+
+.indoor{
+    width: 50%;
+    height: 60vh;
+    margin-top: 50px;
+    margin-left: 100px;
+    border: 3px solid white;
+    box-shadow: 1px 1px 20px gold;
+    border-radius: 20px;
+}
+
+.outdoor{
+    width: 50%;
+    height: 60vh;
+    margin-top: 50px;
+    margin-left: 500px;
+    border: 3px solid white;
+    box-shadow: 1px 1px 20px gold;
+    border-radius: 20px;
+}
+
+.main5{
+    background-image: url('https://images.pexels.com/photos/2098428/pexels-photo-2098428.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-2098428.jpg&fm=jpg');
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    
+}
+.end{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.end a{
+    
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.container-1{
+    padding-top: 80px;
+    margin-left: 10%;
+}
+.container-1 li:hover{
+    color: gold;
+}
+#container-2{
+    padding-top: 80px;
+    
+}
+
+#container-2 h3{
+    margin-left: 70%;
+    color: white;
+}
+#container-2 p{
+    color: white;
+    font-size: 15px;
+}
+
+.p1{
+    margin-top: 6%;
+    margin-left: 66%;
+}
+.p2{
+    margin-top: 3%;
+    margin-left: 54%;
+}
+.p3{
+    margin-top: 3%;
+    margin-left: 37.5%;
+}
+.p4{
+    margin-top: 3%;
+    margin-left: 47%;
+}
+
+.social{
+    margin-top: 6%;
+    font-size: 30px;
+    margin-left: 60%;
+    color: rgba(255, 255, 255, 0.799);
+}
+.social a:hover{
+   text-shadow: 1px 1px 10px gold;
+}
